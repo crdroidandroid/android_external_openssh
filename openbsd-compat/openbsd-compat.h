@@ -27,6 +27,8 @@
 #ifndef _OPENBSD_COMPAT_H
 #define _OPENBSD_COMPAT_H
 
+#define HAVE_EXPLICIT_BZERO
+
 #include "includes.h"
 
 #include <sys/types.h>
